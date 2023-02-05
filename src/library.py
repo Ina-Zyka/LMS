@@ -57,7 +57,7 @@ class Register:
             print(f" {self.username} Successfully Registered in as {self.type}!!! ")
 
 
-valid_user_check = lambda uname: True if re.match("^[a-zA-Z0-9_]+$", uname) else False
+valid_user_check = lambda uname: True if re.match("^\w+$", uname) else False
 
 valid_password_check = lambda passwd: True if re.fullmatch(r'[A-Za-z0-9@#$%^&+=]{8,}', passwd) else False
 
