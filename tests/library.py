@@ -38,24 +38,28 @@ class TestValidations(TestCase):
             self.assertIsNone(validate_user(valid_user_check, "ina"))
         except SystemExit:
             self.assertRaises(SystemExit)
+            raise
 
     def test_validate_password(self):
         try:
             self.assertTrue(validate_password(valid_password_check, "fgh"))
         except SystemExit:
             self.assertRaises(SystemExit)
+            raise
 
     def test_validate_email(self):
         try:
             self.assertTrue(validate_email(valid_email_check, "fgh234"))
         except SystemExit:
             self.assertRaises(SystemExit)
+            raise
 
     def test_validate_type(self):
         try:
             self.assertTrue(validate_type(valid_usertype_check, "user"))
         except SystemExit:
             self.assertRaises(SystemExit)
+            raise
 
     def test_user_admin(self):
         self.assertIsNone(validate_user(valid_user_check, "Ina"))
