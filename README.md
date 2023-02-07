@@ -6,6 +6,5 @@ Library Management System is a console based application in python which uses te
 #### 1. UML Diagrams
 A UML diagram is a diagram based on the Unified Modeling Language with the purpose of visually representing a system along with its main actors, roles, actions, artifacts or classes, in order to better understand, alter, maintain, or document information about the system.
 
-[Class Diagram![Class Diagram](https://user-images.githubusercontent.com/95880115/217319466-c639d150-914e-4d2d-be9a-17ff5b2afb48.jpeg)]
-(url)
+Class Diagram[](url)
 
