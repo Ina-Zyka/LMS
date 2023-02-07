@@ -53,6 +53,17 @@ https://github.com/Ina-Zyka/LMS/blob/main/src/library.py#L79
 ##### e.	Use of decorators
 https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
 
+#### 8. Pycharm IDE
+
+##### Favorite Key-Shortcuts:
+-ctrl + d – Duplicate code
+-ctrl + shift + z – Redo
+-ctrl + shift + f – Format file / code
+-ctrl + shift + k – Commit 
+-ctrl + shift + 8 – Activate rectangle selection 
+
+
+
 
 
 
