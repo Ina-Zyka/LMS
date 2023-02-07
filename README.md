@@ -57,16 +57,15 @@ https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
 
 ##### Favorite Key-Shortcuts:
 
-##### ctrl + d ##### 
-– Duplicate code
+a. **ctrl + d **– Duplicate code
 
--ctrl + shift + z – Redo
+b. **ctrl + shift + z** – Redo
 
--ctrl + shift + f – Format file / code
+c. **ctrl + shift + f** – Format file / code
 
--ctrl + shift + k – Commit 
+d. **ctrl + shift + k** – Commit 
 
--ctrl + shift + 8 – Activate rectangle selection 
+e. **ctrl + shift + 8** – Activate rectangle selection 
 
 
 
