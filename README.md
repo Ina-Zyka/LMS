@@ -31,16 +31,9 @@ https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_security_rat
 https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_duplicated_lines_density&view=list
 
 #### 4. Clean Code Development:
-Clean code is a set of principles for writing code that is easy to understand and modify. In this case, “understandable” means that the code can be immediately understood by any experienced developer. The following characteristics of clean code are what make it easy to read:
-1.The entire application’s order of execution is logical and clearly structured
-2.The connection between different parts of the code is quite obvious
-3.The task or role of each class, function, method, and variable is immediately understandable
+Clean code is a set of principles for writing code that is easy to understand and modify. In this case, “understandable” means that the code can be immediately understood by any experienced developer. The following characteristics of clean code are what make it easy to read: The entire application’s order of execution is logical and clearly structured, the connection between different parts of the code is quite obvious, the task/role of each class, function, method, and variable is immediately understandable.
 
-Code is easy to modify if it can be adapted and extended. This also makes it easier to correct errors in the code. Clean code is thus very easy to maintain. Easily modifiable code has the following characteristics:
-
-1.Classes and methods are small and only have one single task
-2.Classes and methods are predictable, work as expected
-3.The code uses unit tests
+Code is easy to modify if it can be adapted and extended. This also makes it easier to correct errors in the code. Clean code is thus very easy to maintain. Easily modifiable code has the following characteristics: Classes and methods are small and only have one single task, classes and methods work as expected, the code uses unit tests.
 
 ##### a.	Use of constant variables
 https://github.com/Ina-Zyka/LMS/blob/main/src/constants.py
