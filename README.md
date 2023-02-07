@@ -8,16 +8,18 @@ A UML diagram is a diagram based on the Unified Modeling Language with the purpo
 
 [Here](https://github.com/Ina-Zyka/LMS/commit/adde923c2601a656201e2f67b3156c4de8e84d6e) are the UML diagrams for our Library Management System.
 
-#### 2.SonarCloud Metrics:
+#### 2. SonarCloud Metrics:
 SonarCloud is a cloud-based code analysis service designed to detect code quality issues, continuously ensuring the maintainability, reliability and security of the code.
 
-URL: [https://sonarcloud.io/project/overview?id=Ina-Zyka_LMS]
+##### URL: https://sonarcloud.io/project/overview?id=Ina-Zyka_LMS
 
-1. Reliability:
+##### a. Reliability:
 https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_reliability_rating&view=list
-2.Security:
+
+##### b.Security:
 https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_security_rating&view=list
-3.Duplications:
+
+##### c.Duplications:
 https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_duplicated_lines_density&view=list
 
 
