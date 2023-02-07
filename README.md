@@ -9,7 +9,9 @@ A UML diagram is a diagram based on the Unified Modeling Language with the purpo
 Here are the UML diagrams for our Library Management System:
 
 [Class Diagram](https://github.com/Ina-Zyka/LMS/blob/main/images/UML%20Class%20Diagram.png)
+
 [Activity Diagram](https://github.com/Ina-Zyka/LMS/blob/main/images/UML%20Actitvity%20Diagram.jpg)
+
 [Use Case Diagram](https://github.com/Ina-Zyka/LMS/blob/main/images/UML%20UseCase%20Diagram.jpg)
 
 
