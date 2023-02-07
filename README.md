@@ -37,7 +37,7 @@ Code is easy to modify if it can be adapted and extended. This also makes it eas
 
 [Here]() you can find the Cheatsheet.
 
-##### Some points of clean code in my code:
+##### Clean Code:
 
 ##### a.	Use of constant variables
 https://github.com/Ina-Zyka/LMS/blob/main/src/constants.py
