@@ -16,10 +16,10 @@ SonarCloud is a cloud-based code analysis service designed to detect code qualit
 ##### a. Reliability:
 https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_reliability_rating&view=list
 
-##### b.Security:
+##### b. Security:
 https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_security_rating&view=list
 
-##### c.Duplications:
+##### c. Duplications:
 https://sonarcloud.io/component_measures?id=Ina-Zyka_LMS&metric=new_duplicated_lines_density&view=list
 
 
