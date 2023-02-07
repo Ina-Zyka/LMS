@@ -16,6 +16,9 @@ Here are the UML diagrams for our Library Management System:
 ##### - [Use Case Diagram](https://github.com/Ina-Zyka/LMS/blob/main/images/UML%20UseCase%20Diagram.jpg)
 
 
+#### 2. DDD (Domain Driven Design)
+
+
 #### 3. SonarCloud Metrics:
 SonarCloud is a cloud-based code analysis service designed to detect code quality issues, continuously ensuring the maintainability, reliability and security of the code.
 
@@ -53,6 +56,13 @@ https://github.com/Ina-Zyka/LMS/blob/main/src/library.py#L79
 ##### e.	Use of decorators
 https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
 
+
+#### 5. Build Management
+
+#### 6. Unit-Tests
+
+#### 7. Continuous Delivery
+
 #### 8. Pycharm IDE
 In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcuts are:
 
@@ -65,6 +75,11 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
 **ctrl + shift + k** – Commit 
 
 **ctrl + shift + 8** – Activate rectangle selection 
+
+#### 9. DSL
+
+#### 10. Functional Programming
+
 
 
 
