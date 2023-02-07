@@ -1,5 +1,5 @@
-from src import constants
-from src.library import Login, validate_user, validate_password, validate_email, validate_type, Register, \
+from src.main.python import constants
+from src.main.python.library import Login, validate_user, validate_password, validate_email, validate_type, Register, \
     valid_user_check, valid_password_check, valid_email_check, valid_usertype_check
 
 

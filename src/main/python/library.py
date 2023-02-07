@@ -1,11 +1,11 @@
 import re
 import os
-from src.users import User
-from src.errors import InvalidUserException, InvalidPasswordException, InvalidEmailException, \
+from src.main.python.users import User
+from src.main.python.errors import InvalidUserException, InvalidPasswordException, InvalidEmailException, \
     InvalidTypeException
 
 directory = os.path.dirname(__file__)
-user_db_path = os.path.join(directory, '/LMS/db/UserData.txt')
+user_db_path = os.path.join(directory, '../../../db/UserData.txt')
 
 
 class Login:

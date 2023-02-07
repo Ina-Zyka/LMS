@@ -1,6 +1,6 @@
 import unittest
 from unittest import TestCase
-from src.books import Books
+from src.main.python.books import Books
 
 
 class TestBooks(TestCase):

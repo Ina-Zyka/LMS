@@ -1,0 +1,4 @@
+d3fc0c46-fd91-4114-bccc-1fa6b9795bd3,The client,John Grisham,3,€34
+2352248c-0526-4abb-be05-2c14bab63ed2,Broken April,Ismail Kadare,30,€24
+ca074373-137d-4f28-b929-888a05eed569,Eugenie Grandet,Honore de Balzac,23,€34
+e7cbb478-7325-43e4-8491-5f30fbd025ab,The Old Man and the Sea,Ernest Hemingway,23,€30

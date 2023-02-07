@@ -2,18 +2,18 @@ from unittest import TestCase
 import unittest
 import re
 
-from src.library import Register, validate_user, validate_password, validate_email, validate_type, Login
+from src.main.python.library import Register, validate_user, validate_password, validate_email, validate_type, Login
 
 
 class TestRegister(TestCase):
 
     def setUp(self):
-        self.reg_admin = Register('Ina', 'ina1234', 'ina1234@gmail.com', 'Admin')
+        self.reg_admin = Register('Ina', 'ina@password', 'ina1234@gmail.com', 'Admin')
         self.reg_student = Register('Rose', 'rose@1234', 'rose@gmail.com', 'Student')
 
     def test_register_user(self):
         self.assertEqual(self.reg_admin.username, 'Ina')
-        self.assertEqual(self.reg_admin.password, 'ina1234')
+        self.assertEqual(self.reg_admin.password, 'ina@password')
         self.assertEqual(self.reg_admin.email, 'ina1234@gmail.com')
         self.assertEqual(self.reg_admin.type, 'Admin')
         self.assertEqual(self.reg_student.username, 'Rose')
@@ -65,7 +65,7 @@ class TestValidations(TestCase):
         self.assertIsNone(validate_user(valid_user_check, "Ina"))
 
     def test_password_admin(self):
-        self.assertIsNone(validate_user(valid_password_check, "ina1234"))
+        self.assertIsNone(validate_user(valid_password_check, "ina@password"))
 
     def test_email_admin(self):
         self.assertIsNone(validate_user(valid_email_check, "ina@gmail.com"))
@@ -73,12 +73,12 @@ class TestValidations(TestCase):
 
 class TestLogin(TestCase):
     def setUp(self):
-        self.log = Login('ina', 'ina1234')
+        self.log = Login('ina', 'ina@password')
         self.log1 = Login('ROSE', 'bbb@1234')
         self.log2 = Login('SALVS', 'ccc@1234')
 
     def test_user_condition(self):
-        self.assertTrue(self.log.user_role('ina', 'ina1234'))
+        self.assertTrue(self.log.user_role('ina', 'ina@password'))
         self.assertFalse(self.log.user_role('ina', 'ina8765'))
 
     def test_check_admin_login(self):

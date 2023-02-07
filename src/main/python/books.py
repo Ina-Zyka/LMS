@@ -2,12 +2,12 @@ import datetime
 import os
 import uuid
 
-from src import constants
+from src.main.python import constants
 
 directory = os.path.dirname(__file__)
 
-issued_book_path = os.path.join(directory, '/LMS/db/IssuedBook.txt')
-books_db_path = os.path.join(directory, '/LMS/db/Books.txt')
+issued_book_path = os.path.join(directory, '../../../db/IssuedBook.txt')
+books_db_path = os.path.join(directory, '../../../db/Books.txt')
 
 
 class Books:

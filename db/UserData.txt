@@ -1,0 +1,4 @@
+INA,ina@password,ina@gmail.com,ADMIN
+JACK,jack@password,jack@gmail.com,STUDENT
+ENI,eni@1234,eni@gmail.com,STAFF
+INA,ina@1234,ina@gmail.com,ADMIN

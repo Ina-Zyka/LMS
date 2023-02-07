@@ -1,5 +1,5 @@
-from src.books import Books, calculate_fine
-from src import constants
+from src.main.python.books import Books, calculate_fine
+from src.main.python import constants
 
 
 class User:
