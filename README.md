@@ -54,8 +54,7 @@ https://github.com/Ina-Zyka/LMS/blob/main/src/library.py#L79
 https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
 
 #### 8. Pycharm IDE
-
-##### Favorite Key-Shortcuts:
+In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcuts are:
 
 **ctrl + d** – Duplicate code
 
