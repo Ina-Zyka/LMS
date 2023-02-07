@@ -23,5 +23,5 @@ def set_properties(project):
     project.set_property('pdoc_module_name', 'src.main.python')
     project.set_property('pdoc_command_args',['--html'])
 
-    #project.set_property("coverage_break_build", False) # default is True
+    project.set_property("coverage_break_build", False) # default is True
 

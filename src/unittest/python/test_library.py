@@ -1,6 +1,5 @@
-from unittest import TestCase
-import unittest
 import re
+from unittest import TestCase
 
 from src.main.python.library import Register, validate_user, validate_password, validate_email, validate_type, Login
 
@@ -22,7 +21,7 @@ class TestRegister(TestCase):
         self.assertEqual(self.reg_student.type, 'Student')
 
 
-valid_user_check = lambda uname: True if re.match("^\w+$", uname) else False
+valid_user_check = lambda uname: True if re.match("^[A-Za-z0-9]+$", uname) else False
 
 valid_password_check = lambda passwd: True if re.fullmatch(r'[A-Za-z0-9@#$%^&+=]{8,}', passwd) else False
 
@@ -98,7 +97,3 @@ class TestLogin(TestCase):
             self.assertEquals("STAFF", self.log2.user_validation(), "STAFF")
         except FileNotFoundError:
             self.assertRaises(FileNotFoundError)
-
-
-if __name__ == '__main__':
-    unittest.main()
