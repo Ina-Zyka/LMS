@@ -57,7 +57,8 @@ https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
 
 ##### Favorite Key-Shortcuts:
 
--ctrl + d – Duplicate code
+##### ctrl + d ##### 
+– Duplicate code
 
 -ctrl + shift + z – Redo
 
