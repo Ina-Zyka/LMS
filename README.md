@@ -35,6 +35,10 @@ Clean code is a set of principles for writing code that is easy to understand an
 
 Code is easy to modify if it can be adapted and extended. This also makes it easier to correct errors in the code. Clean code is thus very easy to maintain. Easily modifiable code has the following characteristics: Classes and methods are small and only have one single task, classes and methods work as expected, the code uses unit tests.
 
+[Here]() you can find the Cheatsheet.
+
+##### Some points of clean code in my code:
+
 ##### a.	Use of constant variables
 https://github.com/Ina-Zyka/LMS/blob/main/src/constants.py
 
