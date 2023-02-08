@@ -61,6 +61,7 @@ https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
 The tool we used to build our LMS is PyBuilder. The Build of the project was successful, [here](https://github.com/Ina-Zyka/LMS/blob/main/images/Build%20successful.png) you can find a screenshot. Furthermore, here you can check the [build file](https://github.com/Ina-Zyka/LMS/blob/main/build.py) and the [setup file](https://github.com/Ina-Zyka/LMS/blob/main/setup.py).
 
 #### 6. Unit-Tests
+The build was successful and all unit test passed. [Here](https://github.com/Ina-Zyka/LMS/blob/main/images/Build%20successful.png) you can see the result.
 
 #### 7. Continuous Delivery
 
