@@ -58,7 +58,7 @@ https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
 
 
 #### 5. Build Management
-To build our LMS, we have used PyBuilder using the command pyb. The Build of the project was successful, [here](https://github.com/Ina-Zyka/LMS/blob/main/images/Build%20successful.png) you can find a screenshot. Furthermore, you can find the [build fle](https://github.com/Ina-Zyka/LMS/blob/main/build.py) and setup file(https://github.com/Ina-Zyka/LMS/blob/main/setup.py)
+The tool we used to build our LMS is PyBuilder. The Build of the project was successful, [here](https://github.com/Ina-Zyka/LMS/blob/main/images/Build%20successful.png) you can find a screenshot. Furthermore, you can find the [build fle](https://github.com/Ina-Zyka/LMS/blob/main/build.py) and [setup file](https://github.com/Ina-Zyka/LMS/blob/main/setup.py).
 
 #### 6. Unit-Tests
 
