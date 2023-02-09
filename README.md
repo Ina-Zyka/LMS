@@ -68,15 +68,15 @@ The build was successful and all unit tests passed. [Here](https://github.com/In
 #### 8. Pycharm IDE
 In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcuts are:
 
-**ctrl + d** – Duplicate code
+* ctrl + d – Duplicate code
 
-**ctrl + shift + z** – Redo
+* ctrl + shift + z – Redo
 
-**ctrl + shift + f** – Format file / code
+* ctrl + shift + f – Format file / code
 
-**ctrl + shift + k** – Commit 
+* ctrl + shift + k – Commit 
 
-**ctrl + shift + 8** – Activate rectangle selection 
+* ctrl + shift + 8 – Activate rectangle selection 
 
 #### 9. DSL
 
