@@ -82,11 +82,19 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
 
 #### 10. Functional Programming
 
+Below are some aspects of functional programming used in LMS project:
+
 * Final data structures
 
+  Illustration of [final data structures](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/books.py#L7)
+
 * Side effect free functions
+  
+  Illustration of [side effect free function](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/books.py#L33)
 
 * Higher-order functions
+  
+  Since decorators are the most common use of higher-order functions in Python, [here](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/books.py#L71) we      have a sample of it, where fine_calc_decorator is callable function and calculate_fine is the actual function inside the wrapper function.
 
 * Functions as parameters
   
@@ -95,6 +103,7 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
   2. [Here](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/main.py#L32) you see a function called [validate_type](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L97) which accepts as a parameter the function [valid_usertype_check](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L66).                                                       
 
 * Anonymous functions
+
   In the project we have used the anonymous function called [Lambda](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L55). This function 
   can have any number of arguments but only one expression, which is evaluated and returned.
 
