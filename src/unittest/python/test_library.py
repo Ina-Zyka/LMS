@@ -78,7 +78,7 @@ class TestLogin(TestCase):
 
     def test_check_admin_login(self):
         try:
-            self.assertEquals("None", self.log.user_validation(), "ADMIN")
+            self.assertEquals("ADMIN", self.log.user_validation(), "ADMIN")
         except FileNotFoundError:
             self.assertRaises(FileNotFoundError)
 
