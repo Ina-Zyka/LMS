@@ -88,7 +88,7 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
 
 * Higher-order functions
 
-* Functions as parameters*
+* Functions as parameters
   
   For this point, we have two examples:
   1. A function called [user_role](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L17) is stored to the variable [user_username_pass_check_](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L39) stored as a variable.  
