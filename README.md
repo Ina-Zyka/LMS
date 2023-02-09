@@ -83,10 +83,20 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
 #### 10. Functional Programming
 
 * Final data structures
+
 * Side effect free functions
+
 * Higher-order functions
-* Functions as parameters and return values
+
+* Functions as parameters
+  For this point, we have two examples:
+  1. A function called [_user_role_](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L17) is stored to the variable [user_username_pass_check_]      (https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L39) stored as a variable.  
+  2. A function called [validate_type](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L70) which accepts as a paramater
+     function [valid_usertype_check](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L66).                                                            [Here](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/main.py#L32) you can see the example. 
+
 * Anonymous functions
+  In the project we have used the anonymous function called [Lambda](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L55). This function 
+  can have any number of arguments but only one expression, which is evaluated and returned.
 
 
 
