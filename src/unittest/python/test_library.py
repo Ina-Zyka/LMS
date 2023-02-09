@@ -68,13 +68,13 @@ class TestValidations(TestCase):
 
 class TestLogin(TestCase):
     def setUp(self):
-        self.log = Login('ina', 'ina@password')
-        self.log1 = Login('ROSE', 'bbb@1234')
-        self.log2 = Login('SALVS', 'ccc@1234')
+        self.log = Login('INA', 'ina@password')
+        self.log1 = Login('JACK', 'jack@password')
+        self.log2 = Login('ENI', 'eni@1234')
 
     def test_user_condition(self):
-        self.assertTrue(self.log.user_role('ina', 'ina@password'))
-        self.assertFalse(self.log.user_role('ina', 'ina8765'))
+        self.assertTrue(self.log.user_role('INA', 'ina@password'))
+        self.assertFalse(self.log.user_role('INA', 'ina8765'))
 
     def test_check_admin_login(self):
         try:
