@@ -82,6 +82,13 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
 
 #### 10. Functional Programming
 
+* Final data structures
+* Side effect free functions
+* Higher-order functions
+* Functions as parameters and return values
+* Anonymous functions
+
+
 
 
 
