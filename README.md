@@ -81,7 +81,7 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
 * ctrl + shift + 8 – Activate rectangle selection 
 
 #### 9. DSL snippet
-A Domain Specific Language is a programming language with a higher level of abstraction optimized for a specific class of problems. Regular Expressions (short Regex) are Strings that work as a DSL to do some common tasks within other Strings. [Here]https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L60() is a sample of code that uses regex.
+A Domain Specific Language is a programming language with a higher level of abstraction optimized for a specific class of problems. Regular Expressions (short Regex) are Strings that work as a DSL to do some common tasks within other Strings. [Here](https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L60) is a sample of code that uses regex.
 
 #### 10. Functional Programming
 
