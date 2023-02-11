@@ -10,7 +10,6 @@ Here are the UML diagrams for our Library Management System:
 
 ##### - [Class Diagram](https://github.com/Ina-Zyka/LMS/blob/main/images/UML%20Class%20Diagram.png)
 
-
 ##### - [Activity Diagram](https://github.com/Ina-Zyka/LMS/blob/main/images/UML%20Actitvity%20Diagram.jpg)
 
 ##### - [Use Case Diagram](https://github.com/Ina-Zyka/LMS/blob/main/images/UML%20UseCase%20Diagram.jpg)
@@ -38,23 +37,24 @@ Clean code is a set of principles for writing code that is easy to understand an
 
 Code is easy to modify if it can be adapted and extended. This also makes it easier to correct errors in the code. Clean code is thus very easy to maintain. Easily modifiable code has the following characteristics: Classes and methods are small and only have one single task, classes and methods work as expected, the code uses unit tests.
 
-[Here]() you can find the Cheatsheet.
+[Here](https://github.com/Ina-Zyka/LMS/blob/main/images/CheatSheet.jpeg) you can find the Cheatsheet.
 
 ##### Clean Code:
 
 ##### a.	Use of constant variables
-https://github.com/Ina-Zyka/LMS/blob/main/src/constants.py
+https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/constants.py
 
 ##### b.	Meaningful names (variables, classes, methods)
 Class names as noun or noun phrase: e.g.  class Books, class User
 
 ##### c.	Functions and methods are small (easier to debug), serve one purpose and take 1-3 arguments
-https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L37
+https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/books.py#L37
 
 ##### d.	Error Handling (use of customized exceptions)
-https://github.com/Ina-Zyka/LMS/blob/main/src/library.py#L79
+https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L79
+
 ##### e.	Use of decorators
-https://github.com/Ina-Zyka/LMS/blob/main/src/books.py#L71
+https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/books.py#L71
 
 
 #### 5. Build Management
@@ -64,6 +64,8 @@ The tool we used to build our LMS is PyBuilder. The Build of the project was suc
 The build was successful and all unit tests passed. [Here](https://github.com/Ina-Zyka/LMS/blob/main/images/Build%20successful.png) you can see the result.
 
 #### 7. Continuous Delivery
+In this project, I have used Circle-CI for CI/CD pipeline. For each push, we have a new build and the code quality is published to sonarcloud automatically.
+[Here](https://app.circleci.com/pipelines/github/Ina-Zyka/LMS/24/workflows/e8c281d7-7e59-4269-91af-687b7ea30253/jobs/27) you can see the Circle-CI pipeline.
 
 #### 8. Pycharm IDE
 In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcuts are:
@@ -78,7 +80,8 @@ In this project I decided to use Pycharm IDE and some of my favorite Key-Shortcu
 
 * ctrl + shift + 8 – Activate rectangle selection 
 
-#### 9. DSL
+#### 9. DSL snippet
+A Domain Specific Language is a programming language with a higher level of abstraction optimized for a specific class of problems. Regular Expressions (short Regex) are Strings that work as a DSL to do some common tasks within other Strings. [Here]https://github.com/Ina-Zyka/LMS/blob/main/src/main/python/library.py#L60() is a sample of code that uses regex.
 
 #### 10. Functional Programming
 
