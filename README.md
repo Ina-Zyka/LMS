@@ -16,6 +16,7 @@ Here are the UML diagrams for our Library Management System:
 
 
 #### 2. DDD (Domain Driven Design)
+Domain Driven Design is about mapping business domain concepts into software artifacts. It is used for complex needs, connecting the implementation to an evolving model of the core business concepts. It puts the focus on the problem domain and basically helps identify the architecture and inform about the mechanics that the software needs to replicate. [Here]() you can find the DDD diagram of our LMS project.
 
 
 #### 3. SonarCloud Metrics:
